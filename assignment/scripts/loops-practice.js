@@ -55,13 +55,22 @@ while( starIndex < stars.length){
 }
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
+console.log('count from 0 to 5');
+
 let index = 0
 let max = 6
 while (index<max) {
-  console.log('count from 0 to 5', index);
+  console.log(index);
   index++;
 }
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
 
+
+//let numMax = 10
+//let numMin = 5
+//while (numMax>numMin) {
+//  console.log(index);
+//  index--;
+//}
